@@ -38,6 +38,7 @@ function draw() {
 
     noFill();
     stroke(255);
+
     beginShape();
     for (var i=0; i<positions.length; i++) {
         ellipse(positions[i][0], positions[i][1], 4, 4);
@@ -82,6 +83,7 @@ function draw() {
 
 }
 
+//removes generated fortune
 function refresh() {
   // reading.remove();
   meaning.remove();
